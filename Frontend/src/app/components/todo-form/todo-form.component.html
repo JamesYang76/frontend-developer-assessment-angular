@@ -15,7 +15,7 @@
           >
           <span 
             *ngIf="todoItemForm.get('description')!.invalid"
-            class="help-block text-danger"
+            class="text-danger"
           >
             <span *ngIf="todoItemForm.get('description')!.hasError('required') && todoItemForm.get('description')!.touched">
               This field is required!
